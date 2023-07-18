@@ -10,7 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Controller
 public class HomeworkController {
-	@RequestMapping("/")	// http://localhost:8080/sptringwebapp/
+	@RequestMapping("/")	// http://localhost:8080/springhomework/
 	public String index() {
 		log.info("실행1");
 		return "index";
